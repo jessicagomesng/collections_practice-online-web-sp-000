@@ -36,4 +36,4 @@ end
 
 def find_a(array)
   array.select do |element|
-end 
+end
