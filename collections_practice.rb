@@ -52,5 +52,8 @@ def add_s(array)
 
   array.each do |element|
     new_array << element + "s"
-  end 
+  end
+
+  new_array[1] = original_second_element
+  new_array
 end
