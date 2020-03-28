@@ -47,4 +47,5 @@ def sum_array(array)
 end
 
 def add_s(array)
+  original_second_element = array[1]
 end 
