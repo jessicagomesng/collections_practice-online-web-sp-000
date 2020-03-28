@@ -48,4 +48,9 @@ end
 
 def add_s(array)
   original_second_element = array[1]
+  new_array = []
+
+  array.each do |element|
+    new_array << element + "s"
+  end 
 end
